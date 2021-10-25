@@ -30,7 +30,7 @@
         color:rgb(251, 255, 0);
         padding:0px 15px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         line-height:200px;
         display: block;
@@ -79,12 +79,26 @@
         width: 350px;
         background-color: rgb(19, 19, 19);
         margin-left: 15px;
+        position: absolute;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+
+    .info2 
+    {
+
+        border: 3px solid rgb(238, 255, 0);
+        padding: 10px 20px 10px 20px;
+        width: 1000px;
+        background-color: rgb(19, 19, 19);
+        margin-left: 400px;
+        position: absolute;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
     span.otztext1 
     {
         display: block;
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
         color:rgb(255, 255, 255);
        }
@@ -96,4 +110,36 @@
         text-align: left;
         color:rgba(255, 255, 255, 0.692);
         font-style:  italic;
+    }
+    p.text1 
+    {
+        display: block;
+        font-size: 18px;
+        text-align: left;
+        color:rgb(255, 255, 255);
+    }
+    p.twopackword
+    {
+        display: block;
+        font-size: 18px;
+        text-align: left;
+        color:rgb(0, 0, 0);
+        font-style:  italic;
+        font-weight: bold;
+    }
+
+    p.twopackname
+    {
+        display: block;
+        font-size: 18px;
+        text-align: right;
+        color:rgb(0, 0, 0);
+    }
+
+    .info3 
+    {
+        width: 400px;
+        margin-left: 1450px;
+        position: absolute;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
