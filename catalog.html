@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOUSE MUSIC Главная</title>
+</head>
+<body class="blue">
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Главная</a>
+                </li>
+                <li>
+                    <img src="source/logoblue.jpg" class="logo"/>
+                </li>
+                <li>
+                    <a href="client.html">Наши клиенты</a>
+                </li>
+                <li>
+                    <a href="rule.html">Правила</a>
+                </li>
+                <li>
+                    <a href="soundstudio.html">Акции</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="container">
+            <h2>Мы предлагаем:</h2>
+            <div class="choose__row">
+                <h3 class="choose__title">Выберите услуги:</h3>
+                <div class="choose__item item" data-price="5000">
+                    <img class="item__img" src="source/choose/1.png" alt="">
+                    <span class="item__title">Альбом</span>
+                    <span class="item__description">(5+ треков)</span>
+                </div>
+                <div class="choose__item item" data-price="1000">
+                    <img class="item__img" src="source/choose/2.png" alt="">
+                    <span class="item__title">Сольная песня</span>
+                </div>
+                <div class="choose__item item" data-price="3000">
+                    <img class="item__img" src="source/choose/3.png" alt="">
+                    <span class="item__title">EP</span>
+                    <span class="item__description">(2-5 треков)</span>
+                </div>
+                <div class="choose__item item" data-price="6000">
+                    <img class="item__img" src="source/choose/4.png" alt="">
+                    <span class="item__title">Продажа цифровых записей</span>
+                </div>
+            </div>
+            <div class="choose__row">
+                <h3 class="choose__title">Выберите площадки:</h3>
+                <div class="choose__item item item-black" data-price="1000">
+                    <img class="item__img" src="source/choose/5.jpg" alt="">
+                    <span class="item__title">Западный набор</span>
+                    <span class="item__description"></span>
+                </div>
+                <div class="choose__item item item-black" data-price="800">
+                    <img class="item__img" src="source/choose/6.jpg" alt="">
+                    <span class="item__title">Русский набор</span>
+                </div>
+                <div class="choose__item item item-black" id="universal" data-price="2000">
+                    <img class="item__img" src="source/choose/7.jpg" alt="">
+                    <span class="item__title">Универсальный набор</span>
+                    <span class="item__description"></span>
+                </div>
+            </div>
+            <h2 id="sum">Выберите услуги</h2>
+            <button id="modal-button">Заказать</button>
+        </div>
+    </section>
+    <div class="modal__wrap">
+        <div class="modal">
+            <div class="modal__content">
+                <h2>Заказ услуги</h2>
+                <form action="#" class="modal__form">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Электронная почта">
+                    <input type="text" placeholder="Номер телефона">
+                    <button id="pay-button">Заказать</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
